@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Data"
+        android:id="@+id/master">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home"
+                    android:title="@string/Dasboard" />
+                <item
+                    android:id="@+id/nav_catatan"
+                    android:icon="@drawable/ic_notes"
+                    android:title="@string/Notes" />
+                <item
+                    android:id="@+id/nav_schedule"
+                    android:icon="@drawable/ic_shcedule"
+                    android:title="@string/Schedule" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Lainnya"
+        android:id="@+id/other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_account"
+                    android:icon="@drawable/ic_person"
+                    android:title="@string/Profile" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_about"
+                    android:title="@string/About" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/Logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
